@@ -83,7 +83,7 @@ public class SearchAdapterHelper {
     private String lastFoundChannel;
 
     private boolean allResultsAreGlobal;
-    private boolean allowGlobalResults = true;
+    private boolean allowGlobalResults = false;
 
     private ArrayList<HashtagObject> hashtags;
     private HashMap<String, HashtagObject> hashtagsByText;
